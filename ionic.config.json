@@ -1,0 +1,7 @@
+{
+  "name": "ods7-app",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
