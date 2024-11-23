@@ -6,6 +6,7 @@
   right: 0;
   top: 50%;
   transform: translateY(-50%);
+  
 }
 
 #container strong {
@@ -24,4 +25,44 @@
 
 #container a {
   text-decoration: none;
+}
+.auth-section {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.ods-info {
+  text-align: center;
+  margin: 2rem;
+}
+
+.actions-list {
+  margin: 2rem;
+}
+
+footer {
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 0.9rem;
+  color: #666;
+}
+.centralizar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%; 
+  text-align: center; 
+}
+.ods-image-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.ods-image-container img {
+  width: 100%; /* A imagem ocupará toda a largura do conteúdo */
+  max-width: 500px; /* Limita o tamanho da imagem */
+  height: auto;
+  border-radius: 10px; /* Estilo opcional para bordas arredondadas */
 }

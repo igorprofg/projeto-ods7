@@ -1,7 +1,7 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Blank
+      ODS 7
     </ion-title>
   </ion-toolbar>
 </ion-header>
@@ -12,9 +12,51 @@
       <ion-title size="large">Blank</ion-title>
     </ion-toolbar>
   </ion-header>
-
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div>
+  
+  <ion-content>
+    <div class="centralizar">
+      <h1>ODS 7</h1>
+      <h3></h3>
+    </div>
+  </ion-content>
+  
 </ion-content>
+<div class="auth-section">
+  <ion-button color="primary" routerLink="/login">Login</ion-button>
+  <ion-button color="secondary" routerLink="/register">Registrar-se</ion-button>
+</div>
+<div class="ods-info">
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>ODS 7: Energia Limpa e Acessível</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      O Objetivo de Desenvolvimento Sustentável 7 visa garantir o acesso universal à energia acessível, confiável, sustentável e moderna.
+    </ion-card-content>
+  </ion-card>
+</div>
+<div class="actions-list">
+  <ion-list>
+    <ion-item *ngFor="let action of actions">
+      <ion-label>
+        <h2>{{ action.name }}</h2>
+        <p>{{ action.category }}</p>
+      </ion-label>
+    </ion-item>
+  </ion-list>
+</div>
+<footer>
+  <p>ODS 7 - Faça parte da mudança!</p>
+</footer>
+<ion-list>
+  <ion-item *ngFor="let action of actions">
+    <ion-label>
+      <h2>{{ action.name }}</h2>
+      <p>{{ action.category }}</p>
+    </ion-label>
+  </ion-item>
+</ion-list>
+<!-- Imagem ODS 7 -->
+<div class="ods-image-container">
+  <img src="assets/images/ODS-7-1.png" alt="ODS 7 - Energia Limpa e Acessível" />
+</div>
