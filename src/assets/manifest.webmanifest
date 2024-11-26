@@ -1,7 +1,8 @@
 {
-  "name": "app",
-  "short_name": "app",
-  "theme_color": "#1976d2",
+  "name": "ODS 7",
+  "short_name": "ODS 7",
+  "description": "Aplicativo sobre Energia Limpa e Acessível (ODS 7)",
+  "theme_color": "#ffeb3b",
   "background_color": "#fafafa",
   "display": "standalone",
   "scope": "./",
@@ -54,23 +55,6 @@
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "maskable any"
-    },
-    {
-      "name": "ODS 7",
-      "short_name": "ODS 7",
-      "description": "Aplicativo sobre Energia Limpa e Acessível (ODS 7)",
-      "start_url": ".",
-      "display": "standalone",
-      "background_color": "#ffeb3b",
-      "theme_color": "#ffeb3b",
-      "icons": [
-        {
-          "src": "assets/images/ODS-7-1.png",
-          "sizes": "192x192",
-          "type": "image/png"
-        }
-      ]
     }
-    
   ]
 }
